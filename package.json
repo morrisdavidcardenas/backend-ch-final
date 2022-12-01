@@ -6,7 +6,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon --inspect ./src/server.js -p 3031",
+    "start": "nodemon --inspect ./src/server.js -p 3031",
     "test": "jest",
     "testReport": "jest --no-color 2>./testresults/TestResults_$(date +%F).txt"
   },
